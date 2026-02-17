@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "ts-node --esm src/index.ts",
+    "advanced": "ts-node --esm src/advanced-example.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
